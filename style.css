@@ -1,0 +1,121 @@
+/* Full-page background */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('eliteangel.jpg');
+    background-size: cover;
+    background-position: center;
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header/navbar setup */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.7); /* darker translucent navbar */
+    padding: 5px 5px;
+    height: 50px; /* smaller height */
+}
+
+/* Bigger logo matching nav bar height */
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+/* Navigation links */
+.nav a {
+    text-decoration: none;
+    
+    color: white;
+    font-size: 18px; /* smaller font */
+    font-weight: bold;
+    padding: 10px 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: color 0.3s;
+    text-align: center;
+}
+
+.nav a:hover {
+    color: red;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+/* Content image area */
+.content1-img {
+    max-width: 1349px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content1-img img {
+    display: none; /* hide image since background is already set */
+}
+
+.content1-img .content1-btn {
+    background-color: #949393;
+    color: rgb(10, 10, 10);
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.content1-img .content1-btn:hover {
+    background-color: red;
+}
+
+/* Registration form styling */
+.registration-form {
+    background-color: rgba(0, 0, 0, 0.85); /* black with slight transparency */
+    padding: 30px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 12px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+
+.registration-form h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="date"],
+.registration-form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.registration-form input[type="submit"] {
+    background-color: rgb(235, 31, 31);
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.registration-form input[type="submit"]:hover {
+    background-color: #111010;
+}
